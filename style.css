@@ -77,6 +77,12 @@ header{
     margin-top: -820px;
     margin-left: -670px;
 }
+.santa{
+    margin-top: -550px;
+    margin-left: 540px;
+    height: 500px;
+    width: 400px;
+}
 /*-------------------------Grupe/Profesori/Aule----------------------*/
 section{
     margin-left: 50px;
