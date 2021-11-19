@@ -1,10 +1,11 @@
 body{
-    background-image: url(photo/background.jpg);
+    background-image: url(photo/background.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:100%;
     overflow-x: hidden;
 }
+
 /*-------------------------body----------------------*/
 .orar{
     background-color: rgb(0, 104, 43);
@@ -27,7 +28,7 @@ body{
 }
 header{
     display: grid;
-    grid-template-columns: 100px 10px 100px;
+    grid-template-columns: 500px 100px;
     grid-column-gap: 400px;
 }
 .usarblogo{
@@ -68,6 +69,13 @@ header{
     width: 400px;
     height: 80px;
     margin-left: -90px;
+}
+.ornament2{
+    z-index: -1;
+    height: 300px;
+    width: 1300px;
+    margin-top: -820px;
+    margin-left: -670px;
 }
 /*-------------------------Grupe/Profesori/Aule----------------------*/
 section{
