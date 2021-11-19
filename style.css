@@ -1,0 +1,267 @@
+body{
+    background-image: url(photo/background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:100%;
+    overflow-x: hidden;
+}
+/*-------------------------body----------------------*/
+.orar{
+    background-color: rgb(0, 104, 43);
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    margin-left: 120px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#orartext{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-top: 5px;
+}
+#orartext:hover{
+    color: black;
+}
+header{
+    display: grid;
+    grid-template-columns: 400px 100px;
+    grid-column-gap: 400px;
+}
+.usarblogo{
+    width: 120px;
+    height: 100px;
+    margin-left: 70px;
+}
+
+.celltext{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+.celltext:hover{
+    color: black;
+}
+.cell{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(0, 104, 43);
+    text-align: center;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.cell2{
+    height: 40px;
+    width: 120px;
+    background-color: rgb(0, 104, 43);
+    text-align: center;
+    cursor: pointer;
+    margin-left: 20px;
+}
+/*-------------------------Grupe/Profesori/Aule----------------------*/
+section{
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 90px 110px 200px 800px;
+    grid-column-gap: 30px;
+}
+.usarbtext{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    margin-left: 30px;
+}
+input{
+    width: 415px;
+    height: 30px;
+}
+.groupselect{
+    margin-left: -120px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 40px;
+    grid-row-gap: 1px;
+}
+.grupselect{
+    background-color: white;
+    border: 1px solid black;
+    width: 415px;
+    text-decoration: none;
+    color: black;
+}
+.selecteaza{
+    margin-left: 50px;
+    margin-top: 10px;
+    height: 40px;
+    width: 415px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.selecteaza2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    margin-top: 10px;
+    height: 40px;
+    width: 415px;
+    cursor: pointer;
+}
+.selecteaza3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    margin-top: 10px;
+    height: 40px;
+    width: 415;
+    cursor: pointer;
+}
+
+/*-------------------------tabel ore pe saptamana----------------------*/
+.container{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.celuleverzi{
+    background-color: rgb(0, 104, 43);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25px;
+    width: 60px;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+.celuleverzi:hover{
+    background-color: rgb(35, 168, 90);
+}
+.container2{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px;
+    margin-left: 112px;
+    margin-top: -216px;
+}
+
+.celuleverzi2{
+    background-color: rgb(0, 104, 43);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25px;
+    width: 50px;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+.container3{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 40px;
+    margin-left: 112px;
+    margin-top: 0px;
+}
+.cellwhite{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25px;
+    width: 50px;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+/*-------------------------Optiuni----------------------*/
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.containertext{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    margin-left: 60px;
+}
+/*-------------------------Tabel2----------------------*/
+.cellgreen{
+    background-color: rgb(0, 104, 43);
+    height: 80px;
+    width: 150px;
+    text-align: center;
+    border: 1px solid black;
+}
+.cellgreen:hover{
+    background-color: rgb(35, 168, 90);
+}
+h3{
+    color: rgb(255, 255, 255);
+}
+
+.tablecellwhite{
+    background-color: white;
+    height: 80px;
+    width: 600px;
+    text-align: center;
+    border: 1px solid black;
+}
+.tablecellwhite:hover{
+    background-color: rgb(190, 190, 190);
+}
+.tabelpart1{
+    display: grid;
+    grid-template-columns: 150px 500px ;
+    margin-left: 530px;
+    margin-top: -580px;
+   
+}
+.tabelpart2{
+    display: grid;
+    grid-template-columns: 150px 600px ;
+    margin-top: 1px;
+}
+.tabelpart3{
+    display: grid;
+    grid-template-columns: 150px 600px ;
+    margin-top: 82px;
+    margin-left: -151px;
+}
+.tabelpart4{
+    display: grid;
+    grid-template-columns: 150px 600px ;
+    margin-top: 1px;
+}
+.tabelpart5{
+    display: grid;
+    grid-template-columns: 150px 600px ;
+    margin-top: 82px;
+    margin-left: -151px;
+}
+.tabelpart6{
+    display: grid;
+    grid-template-columns: 150px 600px ;
+    margin-top: 1px;
+}
+/*-------------------------Bottom----------------------*/
+.descarcaorar{
+    width: 250px;
+    height: 60px;
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-left: -20px;
+}
+#lickorar{
+    text-decoration: none;
+}
+#googleplay{
+    width: 200px;
+    height: 150px;
+    margin-top: -30px;
+}
+.fotobottom{
+    display: grid;
+    grid-template-columns: 200px 300px 200px;
+    margin-left: 120px;
+}
+.elearning{
+    width: 100px;
+    height: 100px;
+    margin-top: -20px;
+    margin-left: -180px;
+}
