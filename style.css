@@ -65,11 +65,6 @@ header{
     margin-left: 20px;
     border-radius: 5px;
 }
-.ornament1{
-    width: 400px;
-    height: 80px;
-    margin-left: -90px;
-}
 .ornament2{
     z-index: -1;
     height: 300px;
@@ -290,4 +285,10 @@ h3:hover{
     height: 100px;
     margin-top: -20px;
     margin-left: -180px;
+}
+.ornament1{
+    height: 230px;
+    width: 170px;
+    margin-left: -255px;
+    margin-top: -210px;
 }
